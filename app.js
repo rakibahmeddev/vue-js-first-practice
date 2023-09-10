@@ -6,7 +6,9 @@ const app = Vue.createApp({
     data(){
         return {
             // variable, array, object function etc thakte pare 
-            title: 'This is title',
+          title: 'this is title',
+          name:  'John Doe',
+          age: 30,
         }
     }
 });
