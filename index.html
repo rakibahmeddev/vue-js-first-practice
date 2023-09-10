@@ -14,8 +14,13 @@
         <h1>{{title}}</h1>
 
        <h2>Name: {{name}} Age: {{age}}</h2>
+       
+       <!-- increase and decrease age number -->
        <button v-on:click="age++">Increase</button>
        <button v-on:click="age--">Decrease</button>
+
+       <!-- change title by clicking on the button  by shortcut onlick like @click -->
+       <button @click="title = 'New title'">Change title</button>
     </div>
 
 
